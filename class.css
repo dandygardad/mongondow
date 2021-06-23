@@ -1,0 +1,108 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;700&family=Josefin+Sans:wght@400;600;700&family=Josefin+Slab:wght@300;600&display=swap');
+
+/* WHOLE PAGE */
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+#page {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* END WHOLE PAGE  */
+
+/* TEXT (MENCOCOKKAN SAMA GOOGLE FONTS */
+
+h1 {
+    margin: 0 0 1em 0; font-size:3.0em; font-weight: 700;
+}
+h2 {
+    margin: 0 0 .5em 0; font-size: 2.0em; font-weight: 700;
+}
+h3{
+    margin: 0 0 .5em 0; font-size: 1.3em; font-weight: 700;
+}
+h4{
+    margin: 0 0 1.5em 0; font-size: 1em; font-weight: 700;
+}
+
+p{
+    margin: 0 0 1em 0;
+}
+
+/* END TEXT */
+
+/* HEADER */
+header{
+    height: 300px;
+    background: #021211 url(images/header/header.jpg) no-repeat center bottom;
+    position: relative;
+}
+
+header div.kbm {
+    position: absolute;
+    width: 42%;
+    top: 100px;
+    left: 13%;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header div.kbm h1{
+    margin: 0 0 30px 0;
+    color: #fff
+}
+
+/* END HEADER */
+
+/* SECTION ALL */
+
+section{
+    padding: 0 67px;
+}
+
+/* END SECTION ALL */
+
+/* SECTION SEARCHBOX */
+
+section.searchbox{
+    text-align: center;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    font-family: 'Josefin Slab', serif;
+}
+
+section.searchbox #kata{
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    border-radius: 5px;
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+/* this thing just taken from stackoverflow, need to fix later */
+input::-webkit-input-placeholder { /* WebKit browsers */
+    line-height: 1.5em;
+  }
+  input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    line-height: 1.5em;
+  }
+  input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    line-height: 1.5em;
+  }
+  input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    line-height: 1.5em;
+  }
+
+/* END SECTION SEARCHBOX */
