@@ -42,7 +42,7 @@ p{
 /* HEADER */
 header{
     height: 300px;
-    background: #021211 url(images/header/header.jpg) no-repeat center bottom;
+    background: #021211 url(../images/header/header.jpg) no-repeat center bottom;
     position: relative;
 }
 
