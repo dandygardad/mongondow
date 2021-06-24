@@ -89,6 +89,21 @@ section.searchbox #kata{
     height: 25px;
     font-size: 20px;
     margin: 0 auto;
+    font-weight: 700;
+}
+
+section.searchbox .cari{
+    border: none;
+    cursor: pointer;
+    padding-top: 2px;
+    background-color: transparent;
+}
+
+section.searchbox img{
+    background-repeat: no-repeat;
+    width: 120px;
+    outline: none;
+    /* padding: 50px 50px; */
 }
 
 /* this thing just taken from stackoverflow, need to fix later */
@@ -106,3 +121,48 @@ input::-webkit-input-placeholder { /* WebKit browsers */
   }
 
 /* END SECTION SEARCHBOX */
+
+/* SECTION HOW-TO */
+
+section.how-to {
+    position: relative;
+    color: white;
+    height: 370px;
+    background: #021211;
+}
+
+section.how-to h2{
+    font-family: 'Josefin Slab', serif;
+    position: relative;
+    top: 35px;
+    text-align: center;
+}
+
+section.how-to aside{
+    margin-top: 50px;
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+section.how-to .one{
+    position: relative;
+    background: #EFEFEF;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    color: black;
+}
+section.how-to .two{
+    background: #EFEFEF;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    color: black;
+}
+section.how-to .three{
+    background: #EFEFEF;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    color: black;
+}
+
+/* END SECTION HOW-TO */
