@@ -11,7 +11,7 @@ body {
 }
 
 #page {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     position: relative;
 }
@@ -19,22 +19,22 @@ body {
 /* END WHOLE PAGE  */
 
 /* TEXT (MENCOCOKKAN SAMA GOOGLE FONTS */
-
+/* I think it will be better to not using this on global */
 h1 {
-    margin: 0 0 1em 0; font-size:3.0em; font-weight: 700;
+    margin: 0 0 0 0; font-size:3.0em; font-weight: 700;
 }
 h2 {
     margin: 0 0 .5em 0; font-size: 2.0em; font-weight: 700;
 }
 h3{
-    margin: 0 0 .5em 0; font-size: 1.3em; font-weight: 700;
+    margin: 0 0 .5em 0; font-size: 1.3em; font-weight: 400;
 }
 h4{
     margin: 0 0 1.5em 0; font-size: 1em; font-weight: 700;
 }
 
 p{
-    margin: 0 0 1em 0;
+    margin: 0 0 0em 0;
 }
 
 /* END TEXT */
@@ -76,6 +76,7 @@ section{
 
 section.searchbox{
     text-align: center;
+    background-color: #FFFFFF;
     margin-top: 50px; 
     margin-bottom: 50px;
     font-family: 'Josefin Slab', serif;
@@ -146,7 +147,6 @@ section.how-to aside{
 }
 
 section.how-to .one{
-    position: relative;
     background: #EFEFEF;
     padding-top: 25px;
     padding-bottom: 30px;
@@ -166,3 +166,29 @@ section.how-to .three{
 }
 
 /* END SECTION HOW-TO */
+
+/* SECTION DONATE */
+
+section.donate {
+    font-family: 'Baloo';
+    /* Alangkah baiknya tambah gambar dibelakang donate dengan opacity
+       should do manual :(
+    */
+    background: #30B0AB;
+    text-align: center;
+    height: 280px;
+    font-family: 'Baloo Paaji 2', cursive;
+    color: white;
+}
+
+section.donate h1 {
+    padding-top: 40px;
+}
+
+section.donate img {
+    background-repeat: no-repeat;
+    width: 150px;
+    padding-top: 10px;
+}
+
+/* END SECTION DONATE */
